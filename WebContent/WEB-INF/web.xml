@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <servlet>
+		<servlet-name>SigninServlet</servlet-name>
+		<servlet-class>wmc.servlets.SigninServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>SignupServlet</servlet-name>
+		<servlet-class>wmc.servlets.SignupServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+	<servlet-name>AddCartServlet</servlet-name>
+	<servlet-class>wmc.servlets.AddCartServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+	<servlet-name>RemoveCartServlet</servlet-name>
+	<servlet-class>wmc.servlets.RemoveCartServlet</servlet-class>
+	</servlet>
+	
+		<servlet>
+	<servlet-name>DisplayProductServlet</servlet-name>
+	<servlet-class>wmc.servlets.DisplayProductServlet</servlet-class>
+	</servlet>
+	
+		<servlet>
+	<servlet-name>SearchProductServlet</servlet-name>
+	<servlet-class>wmc.servlets.SearchProductServlet</servlet-class>
+	</servlet>
+	
+		<servlet>
+	<servlet-name>UpdateInfoServlet</servlet-name>
+	<servlet-class>wmc.servlets.UpdateInfoServlet</servlet-class>
+	</servlet>
+	
+		<servlet>
+	<servlet-name>ViewCartServlet</servlet-name>
+	<servlet-class>wmc.servlets.ViewCartServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>SigninServlet</servlet-name>
+		<url-pattern>/SigninServlet</url-pattern>
+	</servlet-mapping>
+	<display-name>Signin</display-name>
+
+	<servlet-mapping>
+		<servlet-name>SignupServlet</servlet-name>
+		<url-pattern>/SignupServlet</url-pattern>
+	</servlet-mapping>
+	<display-name>Signup</display-name>
+
+	<servlet-mapping>
+		<servlet-name>AddCartServlet</servlet-name>
+		<url-pattern>/AddCartServlet</url-pattern>
+	</servlet-mapping>
+	<display-name>Addtocart</display-name>
+	
+	<servlet-mapping>
+		<servlet-name>RemoveCartServlet</servlet-name>
+		<url-pattern>/RemoveCartServlet</url-pattern>
+	</servlet-mapping>
+	<display-name>Removefromcart</display-name>
+	
+		<servlet-mapping>
+		<servlet-name>DisplayProductServlet</servlet-name>
+		<url-pattern>/DisplayProductServlet</url-pattern>
+	</servlet-mapping>
+	<display-name>DisplayProducts</display-name>
+	
+		<servlet-mapping>
+		<servlet-name>SearchProductServlet</servlet-name>
+		<url-pattern>/SearchProductServlet</url-pattern>
+	</servlet-mapping>
+	<display-name>SearchProduct</display-name>
+	
+		<servlet-mapping>
+		<servlet-name>UpdateInfoServlet</servlet-name>
+		<url-pattern>/UpdateInfoServlet</url-pattern>
+	</servlet-mapping>
+	<display-name>UpdateInfo</display-name>
+	
+		<servlet-mapping>
+		<servlet-name>ViewCartServlet</servlet-name>
+		<url-pattern>/ViewCartServlet</url-pattern>
+	</servlet-mapping>
+	<display-name>ViewCart</display-name>
+	
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
