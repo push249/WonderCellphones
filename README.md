@@ -13,3 +13,5 @@ Full Stack project made successful by bringing together technologies learned in 
 3. These classes will get data from the forms in the webpages. And provide to the service layer classes which will connect to the dao, which get the data using jdbc implementation with the help of JDBC Template.
 4. The UserController class will control the user related actions such as sign-in or sign-up.
 5. The OrderController class will control the adding and removing of products from the user’s cart.  
+
+This branch doesn't have a pom file and doesn't use maven for dependency management, libraries/jars need to be provided for this branch.
