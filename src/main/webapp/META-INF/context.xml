@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+<Loader delegate="true"/>
+<Resource
+        name="jdbc/mobilecart"
+        auth="Container"
+        type="javax.sql.DataSource"
+        maxActive="3"
+        maxIdle="2"
+        username="mobilecartuser"
+        maxWait="2"
+        driverClassName="com.mysql.jdbc.Driver"
+        password="mobilecartpwd"
+        url = "jdbc:mysql://localhost/mobilecart"/>
+</Context>
